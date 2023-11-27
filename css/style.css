@@ -1,3 +1,123 @@
+/* Veriables */
+/* Global */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #252525;
+  margin: 0;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+}
+
+/* Navigation-web */
+.container-top {
+  background: url("../images/golden-studio.png");
+  background-size: inherit;
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -2;
+}
+.container-top:after {
+  opacity: 0.502;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
+}
+
+.navigation-web {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 249px;
+  margin-right: 242px;
+  flex-wrap: wrap;
+}
+.navigation-web .logo {
+  padding-top: 43px;
+}
+.navigation-web .logo a {
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 41px;
+  color: #fed136;
+  font-family: "Allura", cursive;
+}
+.navigation-web .menu li {
+  display: inline-block;
+  padding-top: 54px;
+}
+.navigation-web .menu li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-left: 40px;
+  line-height: 10px;
+}
+
+.header-top .web-title {
+  margin-top: 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-top .web-title .title {
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Kurale", serif;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 32px;
+}
+.header-top .web-title .sub-title {
+  font-size: 75px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 60px;
+  line-height: 55px;
+}
+.header-top .web-title .header-btn {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  width: 240px;
+  height: 65px;
+  border-radius: 3px;
+  background-color: #fed136;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 155px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBT0EsV0FBQTtBQUVBO0VBQ0ksc0JBQUE7QUNOSjs7QURTQTtFQUNJLHlCQUFBO0VBQ0EsU0FBQTtBQ05KOztBRFNBO0VBQ0kscUJBQUE7QUNOSjs7QURTQTtFQUNJLGdCQUFBO0FDTko7O0FEU0E7RUFDSSxTQUFBO0FDTko7O0FEU0EsbUJBQUE7QUFFQTtFQUNJLDhDQUFBO0VBQ0Esd0JBQUE7RUFDQSw0QkFBQTtFQUNBLGlCQUFBO0VBQ0EsYUFBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7QUNQSjtBRFFJO0VBQ0ksY0FBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EseUJBQUE7RUFDQSxrQkFBQTtFQUNBLE1BQUE7RUFDQSxPQUFBO0VBQ0EsV0FBQTtFQUNBLFdBQUE7QUNOUjs7QURVQTtFQUNJLGFBQUE7RUFDQSw4QkFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0FDUEo7QURRSTtFQUNJLGlCQUFBO0FDTlI7QURPUTtFQUNJLGVBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0VBQ0EsY0FBQTtFQUNBLDhCQWhFRDtBQzJEWDtBRFFJO0VBQ0kscUJBQUE7RUFDQSxpQkFBQTtBQ05SO0FET1E7RUFDSSxlQUFBO0VBQ0EseUJBQUE7RUFDQSxjQUFBO0VBQ0EsZ0JBQUE7RUFDQSxxQ0E1RUQ7RUE2RUMsa0JBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0FDTFo7O0FEVUE7RUFDSSxpQkFBQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtFQUNBLG1CQUFBO0FDUEo7QURRSTtFQUNJLGVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsNEJBNUZJO0VBNkZKLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQkFBQTtBQ05SO0FEUUk7RUFDSSxlQUFBO0VBQ0Esb0JBQUE7RUFDQSx5QkFBQTtFQUNBLGNBQUE7RUFDQSxnQkFBQTtFQUNBLHFDQTFHRztFQTJHSCxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUNOUjtBRFFJO0VBQ0ksZUFBQTtFQUNBLHlCQUFBO0VBQ0EsY0FBQTtFQUNBLGdCQUFBO0VBQ0EscUNBcEhHO0VBcUhILFlBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSx5QkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0Esb0JBQUE7QUNOUiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
