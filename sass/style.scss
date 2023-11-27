@@ -28,9 +28,34 @@ ul {
     margin: 0;
 }
 
+.section-title {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 700;
+    font-family: $font-one;
+    text-align: center;
+    padding-top: 120px;
+    margin: 0;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Droid Serif";
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 80px;
+}
+
+
 /* Navigation-web */
 
-.container-top {
+.web-top {
     background: url("../images/golden-studio.png");
     background-size: inherit;
     background-repeat: no-repeat;
@@ -125,5 +150,74 @@ ul {
         align-items: center;
         justify-content: center;
         margin-bottom: 155px;
+    }
+}
+
+/* Services */
+
+.fa-solid {
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    background-color: #ffffff;
+    border: 3px solid #fed136;
+    justify-content: center;
+}
+
+.container {
+    max-width: 936px;
+}
+
+.services {
+    background-color: #ffffff;
+    max-width: 1400px;
+    margin: 0 auto;
+    .col-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 75px;
+        color: #222222;
+        font-weight: 700;
+        font-family: $font-one;
+    }
+    .description-service {
+        max-width: 279px;
+        height: 58px;
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: #777777;
+        font-weight: 400;
+        font-family: $font-three;
+        text-align: center;
+        margin-bottom: 118px;
+    }
+}
+
+.services {
+    .fa-basket-shopping {
+        font-size: 38px;
+        color: #fed136;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-laptop-code {
+        font-size: 31px;
+        color: #fed136;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-lock {
+        font-size: 28px;
+        color: #fed136;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
