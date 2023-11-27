@@ -221,3 +221,37 @@ ul {
         align-items: center;
     }
 }
+
+/* Portfolio */
+
+.portfolio {
+    max-width: 1400px;
+    min-height: 1218px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    .container {
+        div[class^="col"] {
+            height: 393px;
+            max-width: 290px;
+            background-color: #ffffff;
+            margin-bottom: 50px;
+            .title-card {
+                font-size: 18px;
+                letter-spacing: 0px;
+                color: #333333;
+                font-weight: 700;
+                font-family: $font-one;   
+                margin: 0;
+                padding-top: 28px;
+            }
+            .subtitle-card {
+                font-size: 14px;
+                color: #737373;
+                font-weight: 400;
+                font-style: italic;
+                font-family: $font-one;
+                margin: 0;
+            }
+        }
+    }
+}
